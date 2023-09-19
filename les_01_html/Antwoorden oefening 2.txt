@@ -1,0 +1,17 @@
+3. Welke doctype wordt hier gebruikt?
+   !doctype html --> HTML5
+
+4. Welke title wordt hier gebruikt?
+   SportFocus vzw - Zwemlessen - Sportkampen - Voetbal
+
+5. Welke charset wordt hier gebruikt?
+   UTF-8
+
+6. Valideer de webpagina. Is deze pagina valide?
+   - <meta http-equiv="pragma" content="no-cache"> gedateerd, werd vroeger gebruikt om caching van de site tegen te gaan.
+   - trailing / in meerdere tags 
+   - foutieve closure tags (<h5> ipv </h5>)
+   - <li> rechtsreeks in <div> ipv in <ul>/<ol>
+
+7. In de code staat iets ivm met favicon <link rel="icon" href="***.png" /> Zoek op het internet wat dit stukje code betekent. Waar zie je het effect van deze lijn code in Chrome?
+   Favicon is het symbooltje zichtbaar in de titel van het tabblad.
