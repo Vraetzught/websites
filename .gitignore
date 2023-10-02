@@ -3,3 +3,10 @@ les_03_text_images_lists/img
 les_04_tables/koffie.jpg
 les_04_tables/thomas-more-logo_oranje_WEB.png
 
+#TEST all pptx/docx/jpg/jpeg/gif/bmp files
+*.docx
+*.pptx
+*.jpeg
+*.jpg
+*.gif
+*.bmp
