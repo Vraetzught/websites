@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        #voornaam, #familienaam {
+            display: block;
+            background-color: lightblue;
+        }
+
+        #voornaam:active, #familienaam:active {
+            background-color: white;
+        }
+
+        form {
+            width: 40%;
+        }
+
+    </style>
+</head>
+
+<body>
+    <form action="https://tm-statweb.be/forms.php" method="post">
+        <label for="voornaam">Voornaam: </label>
+        <input type="text" name="voornaam" id="voornaam" placeholder="Voornaam">
+        <label for="familienaam">Familienaam: </label>
+        <input type="text" name="familienaam" id="familienaam" placeholder="Familienaam">
+        <input type="submit" value="Registreren">
+    </form>
+</body>
+
+</html>
