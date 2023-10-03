@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        label,
+        input {
+            display: block;
+            padding: 5px;
+            width: 50%;
+        }
+
+        .knopje {
+            margin-top: 1em
+        }
+
+        input {
+            box-shadow: 5px 5px lightgray;
+            border-radius: 15px;
+            border: solid 1px black;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="https://tm-statweb.be/forms.php" method="post">
+
+        <div>
+            <label for="voornaam">Voornaam: </label>
+            <input type="text" name="voornaam" id="voornaam" placeholder="Voornaam">
+        </div>
+        <div>
+            <label for="familienaam">Familienaam: </label>
+            <input type="text" name="familienaam" id="familienaam" placeholder="Familienaam">
+        </div>
+        <div>
+            <label for="gebruikersnaam">Gebruikersnaam: </label>
+            <input type="text" name="gebruikersnaam" id="gebruikersnaam" placeholder="Gebruikersnaam">
+        </div>
+        <div>
+            <label for="nickname">Nickname: </label>
+            <input type="text" name="nickname" id="nickname" placeholder="Nickname" required minlength="5"
+                maxlength="15">
+        </div>
+        <div>
+            <label for="paswoord">Paswoord: </label>
+            <input type="password" name="paswoord" id="paswoord" placeholder="Paswoord" required>
+        </div>
+        <div>
+            <label for="herhaalPaswoord">Herhaal paswoord: </label>
+            <input type="password" name="herhaalPaswoord" id="herhaalPaswoord" placeholder="Herhaal paswoord" required>
+        </div>
+
+        <input type="submit" value="Registreren" class="knopje">
+    </form>
+</body>
+
+</html>
