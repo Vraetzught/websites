@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400;500;600;700&display=swap');
+        
+        html {
+            background: url(kompas.jpg) no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+
+        * {
+            font-family: 'Edu TAS Beginner';
+            font: 600;
+            font-size: 2rem;
+        }
+
+        .compass div {
+            color: white;
+        }
+
+        .label-noord {
+            position: absolute;
+            top: 0;
+            right: 50%;
+        }
+
+        .label-oost {
+            position: absolute;
+            top: 50%;
+            right: 0;
+        }
+
+        .label-zuid {
+            position: absolute;
+            bottom: 0;
+            right: 50%;
+        }
+
+        .label-west {
+            position: absolute;
+            top: 50%;
+            left: 0;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="compass">
+        <div class="label-noord">Noord</div>
+        <div class="label-oost">Oost</div>
+        <div class="label-zuid">Zuid</div>
+        <div class="label-west">West</div>
+    </div>
+</body>
+</html>
