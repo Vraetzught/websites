@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les 6 oefening 2</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            text-align: center;
+            border-radius: 5px;
+        }
+
+
+
+        div {
+            display: grid;
+            grid-template-areas:
+                'header header'
+                'aside main'
+                'footer footer';
+            grid-template-columns: 200px auto;
+            grid-template-rows: 20% auto 10%;
+            color: white;
+            font-weight: bolder;
+            font-size: 2rem;
+            gap: 1em;
+            width: 95vw;
+            height: 95vh;
+            margin: 1em;
+
+        }
+
+        header {
+            background-color: dodgerblue;
+            grid-area: header;
+
+
+        }
+
+        aside {
+            grid-area: aside;
+            background-color: greenyellow;
+        }
+
+        main {
+            background-color: black;
+            grid-area: main;
+
+        }
+
+        footer {
+            background-color: orange;
+            grid-area: footer;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <header>Header</header>
+        <aside>Aside</aside>
+        <main>Main</main>
+        <footer>Footer</footer>
+    </div>
+</body>
+
+</html>
