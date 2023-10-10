@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column1 {
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.column2 {
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+@media screen and (min-width: 600px) {
+    .column1 {
+        width: 70%;
+    }
+
+    .column2 {
+        width: 30%;
+    }  
+}
