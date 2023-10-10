@@ -1,0 +1,9 @@
+body {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 2em;
+}
+
+.top {
+    grid-column: span 2;
+}
