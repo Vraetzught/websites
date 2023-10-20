@@ -1,5 +1,6 @@
 les_01_html/My first website/.vscode/settings.json
-
+.vs
+.gitignore
 
 #TEST all pptx/docx/image files
 *.docx
@@ -9,3 +10,4 @@ les_01_html/My first website/.vscode/settings.json
 *.gif
 *.bmp
 *.png
+

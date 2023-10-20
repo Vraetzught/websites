@@ -1,0 +1,49 @@
+:root {
+    --TMorange: #fa6432;
+    --TMblue: #00283c;
+}
+
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    color: var(--TMorange);
+    font-size: 2em;
+}
+
+hr {
+    border-color: var(--TMblue);
+}
+
+.klein {
+    border-radius: 5%;
+    margin: 15px;
+    float: left;
+    opacity: 0.5;
+}
+
+.klein:hover {
+    opacity: 1;
+    transform: scale(1.2);
+    box-shadow: 10px 10px 10px var(--TMorange);
+}
+
+a {
+    color: var(--TMblue);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--TMorange);
+}
+
+a:visited {
+    text-decoration: underline;
+}
+
+div {
+    padding: 15px 0;
+}
