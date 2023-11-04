@@ -1,0 +1,168 @@
+:root {
+  --first: #008693;
+  --second: #f04c25;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  background-color: #e6e6e6;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+/* NAVIGATION MENU */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: var(--first);
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-bottom: 0.3rem solid var(--second);
+}
+
+li {
+  float: left;
+}
+
+li.brand {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: var(--first);
+}
+
+.active {
+  background-color: var(--second);
+}
+
+/* MAIN ARTICLE */
+.main {
+  width: 70%;
+  margin-inline: auto;
+  margin-top: 1em;
+  background-color: #fff;
+}
+
+.content {
+  padding: 1rem;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+p {
+  padding: 1rem 0;
+  text-align: justify;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.flexGeluid {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.cartoon {
+  align-self: center;
+}
+
+.turntable {
+  align-self: center;
+  max-width: 40%;
+  padding: 20px;
+}
+
+.text {
+  max-width: 60%;
+}
+
+.geluid-left {
+  width: 30%;
+}
+
+.headphones {
+  width: 100%;
+}
+
+.button {
+  width: 100%;
+  background-color: var(--second);
+  text-align: center;
+  padding: 1em 0;
+  border-radius: 5px;
+  color: white;
+}
+
+.button>a {
+  color: white;
+  text-decoration: none;
+}
+
+.right {
+  width: 70%;
+}
+
+input,
+textarea {
+  width: 100%;
+  margin: 0.5em 0;
+}
+
+@media (width < 760px) {
+
+  .flexGeluid,
+  .contact {
+    flex-direction: column;
+  }
+
+  .text {
+    max-width: 100%;
+  }
+
+  .right {
+    width: 100%;
+  }
+}
+
+
+/* FOOTER */
+
+.footer {
+  background-color: var(--first);
+  color: #e6e6e6;
+  padding: 1rem;
+  border-top: 0.3rem solid var(--second);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.footer p {
+  text-align: right;
+  font-weight: bold;
+  padding: 0;
+}
