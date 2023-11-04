@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        form {
+            width: 25%;
+        }
+
+        label {
+            font-size: 12px;
+        }
+
+        legend {
+            background-color: maroon;
+            color: white;
+            padding: 5px;
+        }
+
+        fieldset,
+        .knopje {
+            background-color: beige;
+            margin-bottom: 10px;
+            max-width: 100%;
+        }
+
+        fieldset {
+            font-size: 12px;
+        }
+
+        input {
+            accent-color: red;
+        }
+
+        .knopje {
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="https://tm-statweb.be/forms.php" method="post">
+        <fieldset>
+            <legend class="geslachtField">Geslacht</legend>
+            <label for="man">Man</label>
+            <input type="radio" name="geslacht" id="man" value="M">
+            <label for="vrouw">Vrouw</label>
+            <input type="radio" name="geslacht" id="vrouw" value="V">
+            <label for="ander">Ander</label>
+            <input type="radio" name="geslacht" id="ander" value="A">
+        </fieldset>
+
+        <fieldset class="kleurOgenField">
+            <legend>Kleur ogen</legend>
+
+            <label for="bruin">Bruin</label>
+            <input type="radio" name="kleurOgen" id="bruin" value="bruin">
+
+            <label for="groen">Groen</label>
+            <input type="radio" name="kleurOgen" id="groen" value="groen">
+
+            <label for="blauw">Blauw</label>
+            <input type="radio" name="kleurOgen" id="blauw" value="blauw">
+
+            <label for="grijs">Grijs</label>
+            <input type="radio" name="kleurOgen" id="grijs" value="grijs">
+
+        </fieldset>
+
+        <input type="submit" value="Registreren" class="knopje">
+    </form>
+</body>
+
+</html>
