@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Flexbox</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            margin: 0;
+        }
+
+        header,
+        main,
+        footer {
+            display: flex;
+            font-size: 20px;
+            justify-content: space-between;
+            align-items: center;
+            height: 30%;
+            margin: 0.5em;
+        }
+
+        header>div,
+        main>div,
+        footer>div {
+            text-align: center;
+            flex: 1;
+            margin: 0.5em;
+            height: 100%;
+        }
+
+        .box {
+            margin-top: 1em;
+        }
+
+        .header1 {
+            background-color: aqua;
+        }
+
+        .header2 {
+            background-color: darkorchid;
+        }
+
+        .header3 {
+            background-color: rgb(14, 173, 14);
+        }
+
+        .body1 {
+            background-color: yellow;
+        }
+
+        .menu1,
+        .menu2,
+        .menu3 {
+            margin: 0 1em;
+            padding: 0.3em;
+        }
+
+        .menu1 {
+            background-color: darkcyan;
+            margin-top: 1em;
+        }
+
+        .menu2 {
+            background-color: green;
+        }
+
+        .menu3 {
+            background-color: blueviolet;
+        }
+
+        .body2 {
+            background-color: red;
+        }
+
+        .body3 {
+            background-color: rebeccapurple;
+        }
+
+        .body4 {
+            background-color: lightgreen;
+        }
+
+        .footer1 {
+            background-color: blue;
+        }
+
+        .footer2 {
+            background-color: goldenrod;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="header1">
+            <div class="box">Header</div>
+        </div>
+        <div class="header2">
+            <div class="box">Header</div>
+        </div>
+        <div class="header3">
+            <div class="box">Header</div>
+        </div>
+    </header>
+
+    <main>
+
+        <div class="body1">
+            <div class="menu1">Menu 1</div>
+            <div class="menu2">Menu 2</div>
+            <div class="menu3">Menu 3</div>
+        </div>
+        <div class="body2">
+            <div class="box">Body</div>
+        </div>
+        <div class="body3">
+            <div class="box">Body</div>
+        </div>
+        <div class="body4">
+            <div class="box">Body</div>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="footer1">
+            <div class="box">Footer</div>
+        </div>
+        <div class="footer2">
+            <div class="box">Footer</div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
